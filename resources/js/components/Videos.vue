@@ -8,18 +8,18 @@
                 <section class="container">
                <div class="container-fluid galeria-video-container">
         <div class="text-center pt-5">
-        <h2>Galeria de Video Tutoriales</h2>
-        <p class="parrafo">Galeria de video tutoriales de la plataforma H.A.C.E.M</p>
+        <h2>Galería de Video Tutoriales</h2>
+        <p class="parrafo">Galería de video tutoriales de la plataforma H.A.C.E.M</p>
         </div>
         <div class="text-center pt-5">
-        <h3 class="custom">Modulo de Administración</h3>
+        <h3 class="custom">Módulo de Administración</h3>
         </div>
         <div class="row galeria-row">
             <div class="col-lg-4 col-md-6 col-sm-12 galeria-video">
                 <video class="galeria-video-frame" width="100%" controls poster="img/bg.jpg">
                 	<source src="Videos/Video_Tutorial_Areas.mp4" type="video/mp4">
                 </video>
-                <label class="text-center form-control btn-warning cursor custom-label">Video Tutorial de Areas</label>
+                <label class="text-center form-control btn-warning cursor custom-label">Video Tutorial de Áreas</label>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 galeria-video">
                <video class="galeria-video-frame" width="100%" controls poster="img/bg.jpg">
@@ -35,7 +35,7 @@
             </div>
         </div>
          <div class="text-center pt-5">
-        <h3 class="custom">Modulo de Conceptos CIF</h3>
+        <h3 class="custom">Módulo de Conceptos CIF</h3>
         </div>
         <div class="row galeria-row">
             <div align="left" class="col-lg-4 col-md-6 col-sm-12 galeria-video">
@@ -52,7 +52,7 @@
             </div>
         </div>
           <div class="text-center pt-5">
-        <h3 class="custom">Modulo de Materiales</h3>
+        <h3 class="custom">Módulo de Materiales</h3>
         </div>
         <div class="row galeria-row">
             <div class="col-lg-4 col-md-6 col-sm-12 galeria-video">
@@ -75,7 +75,7 @@
             </div>
         </div>
           <div class="text-center pt-5">
-        <h3 class="custom">Modulo de Productos</h3>
+        <h3 class="custom">Módulo de Productos</h3>
         </div>
         <div class="row galeria-row">
             <div class="col-lg-3 col-md-6 col-sm-12 galeria-video">
