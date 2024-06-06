@@ -34,6 +34,6 @@ class Notification extends Mailable
      */
     public function build()
     {
-        return $this->view('email')->from("ejemplo@misena.edu.co")->subject("Envio de Prueba")->with(['name' => $this->name, 'email' => $this->email, 'password' => $this->password]);
+        return $this->view('email')->subject("Registro nuevo usuario")->with(['name' => $this->name, 'email' => $this->email, 'password' => $this->password]);
     }
 }
