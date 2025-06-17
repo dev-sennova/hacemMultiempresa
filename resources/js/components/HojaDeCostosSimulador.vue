@@ -25,10 +25,10 @@
                                         <td>{{total.producto}}</td>
                                         <td>{{total.referencia}}</td>
                                         <td>{{total.unidades}}</td>
-                                        <td>{{total.tiempo | redondeodec}}</td>
-                                        <td>{{total.tiempo*total.unidades | redondeo}}</td>
-                                        <td>{{total.tiempo*total.unidades*Number(valorbase) | redondeo | currency}}</td>
-                                        <td>{{total.tiempo*Number(valorbase) | redondeo | currency}}</td>
+                                        <td>{{Number(total.tiempo) | redondeodec}}</td>
+                                        <td>{{Number(total.tiempo)*Number(total.unidades) | redondeo}}</td>
+                                        <td>{{Number(total.tiempo)*Number(total.unidades)*Number(valorbase) | redondeo | currency}}</td>
+                                        <td>{{Number(total.tiempo)*Number(valorbase) | redondeo | currency}}</td>
                                         <td>
                                             <button type="button" class="btn btn-success btn-sm" @click="abrirModal(total)">
                                                 <i class="icon-magnifier"></i><span> Ver</span>
@@ -318,6 +318,7 @@
                 })
                 .catch(function (error) {
                     // handle error
+                    console.log("++++++++++===========>>>>>>>>>>>**********");
                     console.log(error);
                 })
             },
@@ -391,7 +392,8 @@
             },
         },
         mounted() {
-            this.acumuladoTotal(this.identificador)
+            this.acumuladoTotal(this.identificador);
+            console.log(this.identificador);
         }
     }
 </script>

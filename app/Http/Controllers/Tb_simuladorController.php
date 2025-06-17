@@ -656,6 +656,7 @@ public function hojaDetalle(Request $request)
     ])
     ->orderBy('tb_gestion_materia_prima.id','desc')
     ->get();
+    
 
     # Modelo::join('tablaqueseune',basicamente un on)
     $manodeobraproductos = Tb_mano_de_obra_producto_simulador::join("tb_perfil","tb_mano_de_obra_producto_simulador.idPerfil","=","tb_perfil.id")
@@ -677,6 +678,7 @@ public function hojaDetalle(Request $request)
     ])
     ->orderBy('id','asc')->get();
 
+    
     return [
         'materiaprimaproductos' => $materiaprimaproductos,
         'manodeobraproductos' => $manodeobraproductos,

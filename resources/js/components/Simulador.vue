@@ -380,7 +380,7 @@
             soloNumerosConDecimales(event) {
                 const input = event.target.value;
                 const regex = /^\d*\.?\d*$/; // Permite cualquier cantidad de dígitos
-
+                console.log("numeros decimales");
                 if (!regex.test(input)) {
                     event.target.value = input.slice(0, -1);
                 }
@@ -394,7 +394,7 @@
             soloNumeros(event) {
                 const input = event.target.value;
                 const regex = /^\d*$/; // Permite cualquier cantidad de dígitos
-
+                console.log("solo numeros");
                 if (!regex.test(input)) {
                     event.target.value = input.slice(0, -1);
                 }
