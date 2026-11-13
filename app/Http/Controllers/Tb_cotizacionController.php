@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Tb_materia_prima_producto;
 use App\Tb_gestion_materia_prima;
-use App\tb_hoja_de_costo;
+use App\Tb_hoja_de_costo;
 use App\Tb_producto;
 use App\Tb_orden_pedido_cliente_detalle;
 use App\Tb_orden_pedido_cliente;

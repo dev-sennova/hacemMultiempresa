@@ -7,7 +7,7 @@ use App\Tb_materia_prima_producto;
 use App\Tb_mano_de_obra_producto;
 use App\Tb_gestion_materia_prima;
 use App\Tb_proceso;
-use App\tb_hoja_de_costo;
+use App\Tb_hoja_de_costo;
 use App\Tb_concepto_cif;
 use App\Tb_maquinaria;
 use App\Tb_producto;

@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class Tb_kardex_almacenController extends Controller
+class Tb_kardex_almacenController_Original extends Controller
 {
     public function index(Request $request)
     {
