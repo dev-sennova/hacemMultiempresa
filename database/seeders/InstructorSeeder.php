@@ -20,7 +20,7 @@ class InstructorSeeder extends Seeder
             [
                 'name' => 'Luz Dary Arias Arias',
                 'email' => 'ldariasa@sena.edu.co',
-                'password' => Hash::make('Luz2024*DAA')
+                'password' => Hash::make('63449463')
             ]
         ];
 
