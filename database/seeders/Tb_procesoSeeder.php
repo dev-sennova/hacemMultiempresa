@@ -3,6 +3,7 @@ namespace Database\Seeders;
 
 use App\Tb_proceso;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class Tb_procesoSeeder extends Seeder
 {
