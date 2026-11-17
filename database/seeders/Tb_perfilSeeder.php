@@ -3,6 +3,7 @@ namespace Database\Seeders;
 
 use App\Tb_perfil;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class Tb_perfilSeeder extends Seeder
 {
