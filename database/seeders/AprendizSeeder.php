@@ -18,120 +18,95 @@ class AprendizSeeder extends Seeder
     {
         $aprendices = [
             [
-                'name' => 'Lizeth Daniela Jaimes Moya',
-                'email' => 'lizdjaimes@soy.sena.edu.co',
-                'password' => Hash::make('Lizeth2024*DJM')
+                'name' => 'YESICA JAZMIN  PEREZ QUIROGA', 
+                'email' => 'yesicajazmin20001@gmail.com', 
+                'password' => '1005462633'
             ],
             [
-                'name' => 'Samuel Alejandro Parada González',
-                'email' => 'samaparada@soy.sena.edu.co',
-                'password' => Hash::make('Samuel2024*APG')
+                'name' => 'LINEY VANESSA  AMADO VARGAS', 
+                'email' => 'lineyamado1903@gmail.com', 
+                'password' => '1033721319'
             ],
             [
-                'name' => 'Keyner Mauricio Calderon Moreno',
-                'email' => 'keymcalderon@soy.sena.edu.co',
-                'password' => Hash::make('Keyner2024*MCM')
+                'name' => 'DULCE MARIA  MARTINEZ FONSECA', 
+                'email' => 'dulcemartinezsena3@gmail.com', 
+                'password' => '1100957218'
             ],
             [
-                'name' => 'Angel David Martinez Blanco',
-                'email' => 'angeld_martinezb@soy.sena.edu.co',
-                'password' => Hash::make('Angel2024*DMB')
+                'name' => 'KAREN SAREY  ALVARADO VILLAMIZAR', 
+                'email' => 'sareyalvarado@gmail.com', 
+                'password' => '1096068382'
             ],
             [
-                'name' => 'Javier Augusto Ortiz Maldonado',
-                'email' => 'javiera_ortiz1@soy.sena.edu.co',
-                'password' => Hash::make('Javier2024*AOM')
+                'name' => 'ANDREA CAMILA   AGUILAR MELENDEZ ', 
+                'email' => 'aguilarmelendezandreacamila@gmail.com', 
+                'password' => '1092360842'
             ],
             [
-                'name' => 'Andres Santiago Lizarazo Vera',
-                'email' => 'aslizarazo9@soy.sena.edu.co',
-                'password' => Hash::make('Andres2024*SLV')
+                'name' => 'NELSON ALBEIRO  LOZANO MORA', 
+                'email' => 'neslonlozano@gmail.com', 
+                'password' => '1109383582'
             ],
             [
-                'name' => 'Paula Valentina Peñaloza Ibañez',
-                'email' => 'paulav_penaloza@soy.sena.edu.co',
-                'password' => Hash::make('Paula2024*VPI')
+                'name' => 'KAROL VANESSA  MARTINEZ FONSECA', 
+                'email' => 'martinezfonsecakarolvanessa@gmail.com', 
+                'password' => '1100957217'
             ],
             [
-                'name' => 'Monica Yisel Nova Fontecha',
-                'email' => 'monynova@soy.sena.edu.co',
-                'password' => Hash::make('Monica2024*YNF')
+                'name' => 'JESUS DANIEL  CONTRERAS ROA', 
+                'email' => 'contrerasroajesusdaniel@gmail.com', 
+                'password' => '1097102883'
             ],
             [
-                'name' => 'Jairo Andres Meza Rios',
-                'email' => 'jairoa_meza@soy.sena.edu.co',
-                'password' => Hash::make('Jairo2024*AMR')
+                'name' => 'LAURA CAMILA  SARMIENTO GONZALEZ', 
+                'email' => 'camgonzalez324@gmail.com', 
+                'password' => '1096065335'
             ],
             [
-                'name' => 'Jhojan Martinez Rangel',
-                'email' => 'jhojan.martinez1@soy.sena.edu.co',
-                'password' => Hash::make('Jhojan2024*MR')
+                'name' => 'ELSA NICOLE  DUARTE CARVAJAL', 
+                'email' => 'nickidavid.0922@gmail.com', 
+                'password' => '1099735176'
             ],
             [
-                'name' => 'Alyson Saory Rivera Pimentel',
-                'email' => 'alysrivera@soy.sena.edu.co',
-                'password' => Hash::make('Alyson2024*SRP')
+                'name' => 'SANTIAGO  DIAZ SANCHEZ', 
+                'email' => 'sandiaz08.a@gmail.com', 
+                'password' => '1102364490'
             ],
             [
-                'name' => 'Darwin Alexis Marquez Coronel',
-                'email' => 'Darwina_marquez@soy.sena.edu.co',
-                'password' => Hash::make('Darwin2024*AMC')
+                'name' => 'NAUDY SCARLET  VASQUEZ ROJAS', 
+                'email' => 'naudy1711@gmail.com ', 
+                'password' => '1096063639'
             ],
             [
-                'name' => 'Claudia Vanessa Pedrozo Cabarcas',
-                'email' => 'claudia_pedrozo@soy.sena.edu.co',
-                'password' => Hash::make('Claudia2024*VPC')
+                'name' => 'YULY ALEXANDRA  CARVAJAL VILLAMIZAR', 
+                'email' => 'carvajalvillamiyulyalexandra@gmail.com', 
+                'password' => '1098220388'
             ],
             [
-                'name' => 'Ruth Noemi Briceño',
-                'email' => 'ruth_briceno@soy.sena.edu.co',
-                'password' => Hash::make('Ruth2024*NB')
+                'name' => 'SHARIK NICOL  GONZALEZ JAIMES', 
+                'email' => 'nicolgoja@gmail.com', 
+                'password' => '1097094861'
             ],
             [
-                'name' => 'Maritza Pérez Carreño',
-                'email' => 'mperez553@soy.sena.edu.co',
-                'password' => Hash::make('Maritza2024*PC')
+                'name' => 'NICOL ALEJANDRA  ANGARITA BOHORQUEZ', 
+                'email' => 'alejaabohorquez124@gmail.com', 
+                'password' => '1099741676'
             ],
             [
-                'name' => 'Jenny Maritza Meléndez Rueda',
-                'email' => 'jennym_melendez@soy.sena.edu.co',
-                'password' => Hash::make('Jenny2024*MMR')
+                'name' => 'JEIMMY NATHALIA  REYES MEJIA', 
+                'email' => 'nathaliareyes26c@gmail.com', 
+                'password' => '1097498986'
             ],
             [
-                'name' => 'Maria Valentina Mantilla Villamizar',
-                'email' => 'mariav_mantilla@soy.sena.edu.co',
-                'password' => Hash::make('Maria2024*MMV')
+                'name' => 'EDGAR ANDRES  SARMIENTO REY', 
+                'email' => 'sarmientoandres61@gmail.com', 
+                'password' => '1102391047'
             ],
             [
-                'name' => 'Laura Juliana Pico Castillo',
-                'email' => 'lauraj_pico@soy.sena.edu.co',
-                'password' => Hash::make('Laura2024*JPC')
-            ],
-            [
-                'name' => 'Mailyn Valeria Utrera Vargas',
-                'email' => 'mvutrera@soy.sena.edu.co',
-                'password' => Hash::make('Mailyn2024*VUV')
-            ],
-            [
-                'name' => 'Yirley Yesenia Leguizamón Rodriguez',
-                'email' => 'yirley_leguizamon@soy.sena.edu.co',
-                'password' => Hash::make('Yirley2024*YLR')
-            ],
-            [
-                'name' => 'Laura Daniela Santos Monsalve',
-                'email' => 'laurad_santos@soy.sena.edu.co',
-                'password' => Hash::make('Laura2024*DSM')
-            ],
-            [
-                'name' => 'Leidy Johana Calvo Diaz',
-                'email' => 'leidy_calvo@soy.sena.edu.co',
-                'password' => Hash::make('Leidy2024*JCD')
-            ],
-            [
-                'name' => 'Diego Alejandro Toledo Soler',
-                'email' => 'diego_toledo@soy.sena.edu.co',
-                'password' => Hash::make('Diego2024*ATS')
-            ]            
+                'name' => 'NICOL LORENA  PORRAS MEJIA', 
+                'email' => 'lorena2mejia2004@gmail.com', 
+                'password' => '1097092313'
+            ]
         ];
 
         foreach ($aprendices as $aprendiz) {
