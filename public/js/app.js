@@ -23350,7 +23350,7 @@ __webpack_require__.r(__webpack_exports__);
       if (input.length > 0 && input.charAt(0) === '0') {
         event.target.value = input.slice(1); // Eliminar el primer carácter si es 0
       }
-      this.unidades = event.target.value;
+      this.tiempo = event.target.value;
     },
     soloNumeros: function soloNumeros(event) {
       var input = event.target.value;

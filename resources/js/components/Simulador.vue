@@ -389,7 +389,7 @@
                     event.target.value = input.slice(1); // Eliminar el primer carácter si es 0
                 }
 
-                this.unidades = event.target.value;
+                this.tiempo = event.target.value;
             },
             soloNumeros(event) {
                 const input = event.target.value;
