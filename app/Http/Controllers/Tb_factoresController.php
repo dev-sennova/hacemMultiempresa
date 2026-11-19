@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Tb_factores_nomina;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 
 class Tb_factoresController extends Controller
 {
